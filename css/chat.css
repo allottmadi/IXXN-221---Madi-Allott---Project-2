@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html,body {
+    height: 100%;
+ }
+ 
+ /* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } */
+
+ #chat {
+   flex-grow: 1;
+   width:100%;
+   max-width: 800px;
+   height: 77.1vh;
+   border:solid 1px #D6D4D4;
+   float:right;
+   margin: 20px 20px 20px 0px;
+}
+
+#chat-window {
+   display: flex;
+   width:100%;
+   max-width: 800px;
+   height:7.5vh;
+   background: #F5F2F2;
+   flex-grow: 1;
+}
+
+  #profiles_side-container {
+   width: 100%;
+   max-width: 1160px;
+   max-height: 800px;
+   height: 95vh;
+   border: 1px solid #D6D4D4;
+    
+ } 
+
+.profiles_side{ 
+   display: grid;
+   flex-flow: column;
+   padding: 0;
+   margin: 20px;
+   list-style: none;
+ }
+ 
+ .item {
+   background: #D5A57A;
+   border: solid 1px #D39247;
+   padding: 5px;
+   width: 100%;
+   max-width: 385px;
+   height: 72.25px;
+   color: black;
+   text-align: left; 
+ } 
+
+ .item1 {
+   background: #D39247;
+   border: solid 1px #D39247;
+   padding: 5px;
+   width: 100%;
+   max-width: 385px;
+   height: 72.25px;
+   color: black;
+   text-align: left; 
+ } 
+
+#prof{
+   width: 100%;
+   max-width: 50px;
+   border-radius: 50%;
+}
+
+#profL{
+   width: 100%;
+   max-width: 50px;
+   border-radius: 50%;
+   margin: 30px 0 0 20px;
+   box-shadow: 0px 0px 4px rgb(0 0 0 / 50%);
+}
+
+#profL1{
+   width: 100%;
+   max-width: 50px;
+   border-radius: 50%;
+   margin: 80px 0 0 20px;
+   box-shadow: 0px 0px 4px rgb(0 0 0 / 50%);
+}
+
+#profS{
+   width: 100%;
+   max-width: 50px;
+   border-radius: 50%;
+   margin: 30px 20px 0 0; 
+   float:right;
+}
+
+#profS1{
+   width: 100%;
+   max-width: 50px;
+   border-radius: 50%;
+    margin: 30px 20px 0 0;  
+   float:right;
+}
+
+
+div .messageL{
+   color: black;
+   padding: 5px;
+   margin-top: -35px;
+   margin-left: 80px;
+   margin-right:610px;
+   text-align:left;
+   font-size:0.7rem;
+   background: #F8F5F5;
+   border-radius:15px;
+ }
+
+ div .messageL1{
+   color: black;
+   padding: 5px;
+   margin-top: -35px;
+   margin-left: 80px;
+   margin-right:350px;
+   text-align:left;
+   font-size:0.7rem;
+   background: #F8F5F5;
+   border-radius:15px;
+ }
+
+ div .messageS{
+   float: right;
+   color: black;
+   padding: 5px;
+   margin-top: 4vh;
+   margin-right:10px; 
+   text-align:left;
+   font-size:0.7rem;
+   background: #B9BFD9;
+   border-radius:15px;
+ }
+ 
+ .text{
+   color: black;
+   margin: -10px 60px 100px ;
+   text-align:left;
+   font-size:0.7rem;
+ }
+
+ .profiles_side div:hover {
+   background-color: #D39247;
+   color: black;
+   cursor: pointer;
+ }
+
+ .type_bar {
+   position: absolute;
+   margin: 150px 0px 0px 20px;
+   width:100%;
+   max-width:700px;
+   background-color: #EDEBEB;
+   color:#D39247;
+   border-radius: 20px;
+   padding:10px;
+   border:none;
+   outline:none;
+ }
+
+ div .button {
+   position: absolute;
+   margin: 150px 0px 0px 735px;
+   width:100%;
+   max-width:50px;
+   background-color: #D39247;
+   border-radius: 50px;
+ }
+
+ .button p{
+    padding:10px;
+    margin-right: 500px;
+    color: black;
+   
+ }

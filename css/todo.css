@@ -1,0 +1,129 @@
+
+  #todo_nav{
+    position: absolute;
+    margin: 40px 20px ;
+    width: 100%;
+    max-width: 140px;
+    height: 100%;
+    max-height: 360px;
+    background: #4873ac;
+
+  }
+
+  #side{
+    position: absolute;
+    margin: 40px 20px ;
+    width: 100%;
+    max-width: 140px;
+    height: 100%;
+    max-height: 210px;
+    background: #4873ac;
+
+  }
+
+  .side_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+  }
+
+  .side_nav a{
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+  }
+
+
+.side_nav a:visited{
+    color:white; text-decoration:none;
+}
+
+.side_nav a:hover{
+    color:#a8cbfc; text-decoration:none;
+}
+
+.side_nav a:active{
+    color:#3364A6; text-decoration:none;
+}
+
+
+/*To Do List CSS*/
+.list {
+    margin: 50px 20px 30px 200px;
+    padding: 0;
+  }
+  
+  .list li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: white;
+    border-top: solid 1px #C4C4C4;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .list li:hover {
+    background: #D4A57A;
+  }
+  
+  /* Strikes out the text when it is clicked on */
+  .list li.checked {
+    color: black;
+    text-decoration: line-through;
+  } 
+  
+   /* Border for correct penny  */
+   #penny{
+    border-bottom: solid 1px #C4C4C4;
+
+  }
+
+  .myday {
+    margin: 40px 20px 0px 150px;
+    padding: 0px 40px 10px;
+    color: black;
+    text-align: left;
+  }
+
+  .addlist {
+    margin: 10px 20px 0px 200px;
+    padding: 0px 5px 10px;
+    color: black;
+    text-align: center;
+  }
+
+  input {
+    margin: -10px;
+    border: solid 1px #C4C4C4;
+    color: #D39247;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  .addBtn {
+    position:absolute;
+    padding: 10px;
+    width: 5%;
+    background: #D39247;
+    color: #fff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .addBtn:hover {
+    background-color: #5B7AA6;
+  }

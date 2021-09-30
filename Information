@@ -1,0 +1,48 @@
+Gaining Control over CSS Layout
+
+Box Model - What describes the amount of space each element takes up on the page
+Margin creates space outside the box (space around the border)
+Padding creates the space within the border
+
+Padding
+- Padding creates a space inside the box (Space between the content and the border)
+- Padding is top, right, bottom and left
+- Padding can also be used as percentage (Which is based on the headers width)
+
+Border
+- Border style can be defined with lots of different styles like dotted or solid
+- Border colour is the color of the border
+- Border width is the width of the border
+- You can have mulitple colours for the border e.g (orange, blue, yellow, green)
+
+The order of declarations of each section is the order of width, padding, border, margin, color, font-size, text-align
+
+box-sizing: border-box - includes the border and padding in the box size
+
+* - universal selector (to select all elements)
+
+max-width 
+min-width
+max-height
+min-height
+
+--> Use when building designs that respons to changes in the browser viewport
+
+Viewport Unit 
+    Viewport Width (vw) (1vw = 1% of the overall viewport width) 
+    Viewport Height(vh)
+
+Display Property
+none
+block (h1, <p>, <ul>
+inline (<a>)
+inline-block 
+
+relative and absolute positioning
+position
+-static - default value
+-relative - top, right, bottom, left to adjust the positioning
+-absolute - removes an element from the normal document flow; allows you to position the element based on the edges of the     viewport
+-fixed
+-sticky
+ 
